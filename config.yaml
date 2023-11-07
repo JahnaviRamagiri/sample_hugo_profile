@@ -1,6 +1,6 @@
-baseURL: "https://keerthi-sreenivas.github.io"
+baseURL: "https://jahnavi-ramagiri.github.io"
 languageCode: "en-us"
-title: "Keerthi"
+title: "Jahnavi"
 theme: master
 
 Paginate: 3
@@ -48,7 +48,7 @@ params:
   theme:
     disableThemeToggle: false
     defaultTheme: "light" # dark
-    color:  
+    color:
         secondaryBackgroundColor: "Blue"
     #darkmode:
         #secondaryBackgroundColor: "Blue"
@@ -62,7 +62,7 @@ params:
   # color preference
   # color:
   #     textColor: "black"
-  #     secondaryTextColor: 
+  #     secondaryTextColor:
   #     backgroundColor:
   #     secondaryBackgroundColor:
   #     primaryColor:
@@ -95,23 +95,28 @@ params:
   hero:
     enable: true
     intro: "Hi there! I'm "
-    title: "Keerthi Sreenivas"
-    #subtitle: 
-    content: "A passionate Data Science Graduate Student who loves using data to build stories and enhance products. I'm also a food Vlogger and Street Photographer ! I live in Rochester, NY"
-    image: "images/me_.jpg"
+    title: "Jahnavi Ramagiri"
+    # subtitle: "Exploring the world of AI, one algorithm at a time."
+    content: |-
+      A passionate ML Engineer with a blend of Electronics and Computer Science. When I'm not diving deep into code, I love to Pen Poems and have a taste for Music.!
+
+      I live in Washington, DC and call India my home.
+    image: "images/me4.jpg"
     button:
-      background - color: 
+      background - color:
       enable: true
       name: "Resume"
-      url: "https://docs.google.com/document/d/1vUD64RGPchMDKgRPX353InBAEOTC_TTVSYW-88v7e9s/edit?usp=sharing"
+      url: "https://docs.google.com/document/d/1OPHBv8o1gvCH53SJ2upgUX0t6zT9yjYpStMYta0XuUY/edit?usp=sharing"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://github.com/Keerthi-Sreenivas
+          url: https://github.com/JahnaviRamagiri
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/keerthi-sreenivas-90b78a185/
+          url: https://www.linkedin.com/in/jahnaviramagiri/
         - icon: fab fa-instagram
-          url: https://www.instagram.com/accounts/login/?next=/keerthi__sreenivas/
+          url: https://instagram.com/jahnaviramagiri?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr
+        - icon: fab fa-instagram
+          url: https://instagram.com/sochconnect?igshid=cGRhbXhzcm1raDk2&utm_source=qr
       #customIcons:
         #- icon: /fav.png
         #  url: "https://example.com"
@@ -119,93 +124,100 @@ params:
   # About
   about:
     enable: true
-    title: "I'm Open to work from December 2022"
-    image: "/images/tempImageuVymn1_adobe_express.jpeg"
+    title: "I'm Open to work from May 2024"
+    # image: "/images/me3.jpg"
     content: |-
-     Currently working as Data Science Intern at Allogene Therapeutics https://allogene.com
-     A Masters in Data Science student with 4+ years of academic experience in Python, R, Machine Learning and Big Data. 
-     I have a strong interest in the the intersection of Technology and Business.
-     
-    skills:
-      enable: true
-      title: "Skills:"
-      items:
-        - "Python, R, SQL, Spark in Databricks, Sci-Kit Learn, MLops, AWS"
-        - "Mentorship, Multi-Cultural Fluency, Team Player"
-       
+      I am a second-year Computer Science master's student with a focus on Machine Learning and Data Science.
+      Leveraging a strong foundation in these areas, I've spent the last three years as a Machine Learning Engineer and Software Development Engineer, contributing my expertise to the Automotive, BFSI, and healthcare domains.
+
+      Skills:
+        - Languages : Python, R, SQL
+        - Libraries & Tools : Pytorch, Tensorflow, Pandas, Scikit-learn, NLTK, SpaCy, Gensim, Tableau, MLFlow, Kubernetes
+        - ML & DL: CNNs,  Advanced Convolutions, Learning Rates, Embeddings, Transformers, LangChain
+        - AWS - Sagemaker, Textract GCP - AutoML
+
+    # skills:
+    #   enable: true
+    #   # items:
+    #     # title: "Skills:"
+    #   items: |-
+    #     - Languages : Python, R, SQL
+    #     - Libraries & Tools : Pytorch, Tensorflow, Pandas, Scikit-learn, NLTK, SpaCy, Gensim, Tableau, MLFlow, Kubernetes
+    #     - ML & DL: CNNs,  Advanced Convolutions, Learning Rates, Embeddings, Transformers, LangChain
+    #     - AWS - Sagemaker, Textract GCP - AutoML
+
 
   # Experience
   experience:
     enable: true
-    items:      
-      - job: "Data Science Intern"
-        company: "Allogene - Cancer Research"
-        companyUrl: "https://example.com"
-        date: "May 2022 - Aug 2022"
+    items:
+      - job: "Research Assistant, Prof. Murray Loew"
+        company: "Medical Imaging and Image Analysis Laboratory, George Washington University"
+        companyUrl: "https://loewlab.seas.gwu.edu/dr-loew/"
+        date: " June 2023 - Present"
         info:
           enable: true
-          content: "Location: San Francisco, CA "
+          content: "Location: Washington, DC "
         featuredLink:
-          enable: false
-          url: "https://example.com"
+          enable: true
+          url: "https://loewlab.seas.gwu.edu/dr-loew/"
         content: |
-          San Francisco, California
-          - Developed a Data Issue tracker dashboard application in R to reduce time in communication issues in data by 70% which replaced existing licensed software thereby saving $80,000 annually for the company
-          - Performed stakeholder analysis and translated functional requirements to build the roadmap for iterative development.
-          - Synthesized User-friendly front-end layouts and designed actionable metrics in the dashboard for the Analytics Team
-          - Worked with cross-functional teams to automate object extraction in and performed ETL to store it in Aws S3 buckets.
-          - Built a practice to write efficient and reusable code with configuration files with minimal technical debt
+          Washington, DC
+          - Preprocessed Brain MRI scans on Sagittal, Coronal and Axial planes using Nibabel and Nipy Libraries.
+          - Assisting in the implementation of algorithms, focusing on early detection of Alzheimer's disease to identify potential biomarkers.
 
-      
-      - job: "Teaching Assitant - Big Data"
-        company: "Simon Business School"
-        companyUrl: "http://simon.rochester.edu"
-        date: "Oct 2020 - May 2021"
+      - job: "Machine Learning Fellow"
+        company: "Launchpad AI (Remote)"
+        companyUrl: "https://www.fellowship.ai/"
+        date: "July 2023 - September 2023"
         info:
           enable: true
-          content: "Location: Rochester, NY"
+          content: "Location: Remote"
         featuredLink:
-          enable: false
-          url: "http://simon.rochester.edu"
-        info:
-          content:
-        content: |-
-          Rochester, NY
-          - Conducted weekly doubt-solving sessions & taught 200+ students on Big data tools like: Hadoop, Hive, PySpark, Databricks
-          - Assisted students in connecting and file sharing in Hadoop clusters hosted on AWS S3 and other ad-hoc data democratization tasks.
+          enable: true
+          url: "https://www.fellowship.ai/"
+        # info:
+        #   content:
+        content: |
+          - Successfully automated the end-to-end travel planning pipeline by implementing a hybrid LAM - Open AI powered travel assistant, leading to a remarkable 30% reduction in user time.
+          - Pioneered the integration of AmadeusAPI to streamline booking processes, ensuring a seamless and user-friendly experience
 
-      - job: "Technical Instructor Intern"
-        company: "KITOLIT"
-        companyUrl: "https://www.kitolit.com"
-        date: "Jul 2020 - Nov 2020"
+
+      - job: "Machine Learning Engineer, BFSI R&D"
+        company: "Quantiphi"
+        companyUrl: "https://quantiphi.com/"
+        date: " July 2021 - August 2022"
         info:
           enable: true
-          content: "Location: Hyderabad, India"
+          content: "Location: Bangalore, India"
         featuredLink:
-          enable: false
-          url: "https://www.kitolit.com"
+          enable: true
+          url: "https://quantiphi.com/"
         info:
           content: Generated a revenue of $6,400 for the startup by offering one-on-one sessions during late/early hours from India for students in the USA, designing course structure and content.
         content: |-
-          Hyderabad, India
-          - Designed the curriculum and produced Content for an experiential learning course “Javascript  for Middle School Kids” by creating fun and interactive lessons  increasing enrollment by 45% Qtr over Qtr
-          - Offered one-on-one Mentoring  sessions from India for students in the USA henceforth generating revenue of $6,400   
-          
-      - job: "IoT Intern"
-        company: " BITS Pilani Indibots "
-        companyUrl: "https://www.f6s.com/indibots"
-        date: "June 2018 - July 2018"
+          Bangalore, India
+          - Developed classification and post-processing modules, elevating document classification pipeline performance from 0.69 to industry-best 0.95 F1. Utilized GCP AutoML, PyTorch, Kubernetes for model development and lifecycle management.
+          - Optimized dataframes, with 50% reduction in runtime for the first-of-its-kind claim adjudication pipeline in the industry.
+          - Utilized Hugging Face models, applying Bioclinical BERT to extract semantic relations  medical insurance loss descriptions.
+
+
+      - job: "Software Development Engineer"
+        company: " ZF  Technology Center India "
+        companyUrl: "https://www.zf.com/india/en/home/home.html"
+        date: "  July 2020 - June 2021"
         info:
           enable: true
           content: "Location: Hyderabad, India "
         featuredLink:
           enable: false
-          url: "https://www.kitolit.com"
+          url: "https://www.zf.com/india/en/home/home.html"
         content: |-
           Hyderabad, India
-          - Worked on Developing a Smart Medicine reminder kit and Collaborated with other interns to define the features of the Device.
-          - Designed the Circuit Diagram.
-          - Presented Demo's to several Professors.
+          -Engineered MATLAB and Python scripts for Signal Analysis in HP & DT transmissions,  for BMW, JLR, FCA, and Audi.
+          - Spearheaded the development of Jenkins-based DevOps pipeline, driving a significant 40% reduction in employee effort.
+          - Consistently recognized as the highest-rated employee in the team.
+
 
 
   # Education
@@ -213,42 +225,31 @@ params:
     enable: true
     # index: true
     items:
-      - title: "Masters in Data Science (Business Concentration)"
+      - title: "Masters in Computer Science, Specialization in Machine Intelligence and Cognition"
         school:
-          name: "University of Rochester, New York"
-          url: "https://www.rochester.edu"
-        date: "2021 - 2022"
-        GPA: "3.7 out of 4.0"
+          name: "George Washington University, Washington, DC"
+          url: "https://www.gwu.edu/"
+        date: "2022 - 2024"
+        GPA: "3.95 out of 4.0"
         content: |-
-            - Was a Teaching Assistant for Big Data at the Simon Business School, University of Rochester
-            - Worked as a Research assistant to pre-process Bio-Medical Image data for training a U-Net Deep Learning Algorithm in the Machine Learning team at the Vaccine Biology and Dermatology labs in University Medical Center
-            - Attending Grace Hopper 2022 Conference with University Scholarship
-            - Course Work: Data Science at scale, Machine Learning, Applied Statistical Methods, Data Mining, Technical Entrepreneurship, Time Series analysis and forecasting.
+            - Was a Teaching Assistant for Design and Analysis of Algorithms (CSCI 6212) at the School of Engineering and Sciences, GWU.
+            - Worked as a Research Assistant to pre-process Bio-Medical Image data for training a U-Net Deep Learning Algorithm in the Machine Learning team at the Medical Imaging and Image Analysis Laboratory
+            - Attended Grace Hopper 2023 Conference with University Scholarship
+            - Course Work: Machine Learning, Computer Vision, Natural Language Processing, Time Series Analysis, Design & Analysis of Algorithms, Big Data Analytics, Database Systems.
 
             Extracurricular Activities
-             - Won first place in the Creative Collision Challenge 2022 Pitching competition 
-             - Conducted and Mentored a Zumba workshop under Rochester Indian Association
-             - Active member of UR Photography club
-      - title: "Bachelor of Technology in Computer Science and Engineering (Hons.)"
+             - Lead - Google Developer Students Club : Leading GDSC in North America Region for 2023-24
+             - Active member of George Hacks
+      - title: "Bachelors in Engineering, Electronics and Communications"
         school:
-          name: "Indian Institute of Information Technology(IIIT), Kottayam"
-          url: "http://www.iiitkottayam.ac.in/#!/home"
-        date: "2017 - 2021"
-        GPA: "8.96 out of 10"
-        content: |- 
-          - Main Author for the research presentation “IoT based Smart Medicine Reminder Kit” at ACM/CSI/IEEE-CS Research and Industry Symposium at IIIT Kottayam.
-          - Co-Founded Proxima an Image processing based Start-up for Smart Badminton and Yoga instruction with Feedback using Deeplearning.
-          - Data Science Courses: Artificial Intelligence, Data Warehousing and  Data Mining, Big Data Analytics, Predictive Analytics, Database Management, 
-          - Computer Science Courses: Cloud Computing, Cryptography and Network Security, Computer Programming, Data Structures, Computer Networks, Computer Organization, Compiler Design, Block Chain Technology, IoT (Internet of Things), Operating Systems, Soft Computing, Distributed and Parallel Computing, High Performance Computing, Theory of Computation, Object Oriented Analysis and Design,
-          - Software Management Courses: Software Engineering and Project Management, Software Design Patterns
-          - Other Courses: Personality Development, Communication Skills, Economics, Human Resource Management, Financial Management and Accounting, Operation and Supply Chain Management
-          
-          
-
-          Extracurricular Activities
+          name: "Chaitanya Bharathi Institute of Technology, Hyderabad"
+          url: "https://www.cbit.ac.in/"
+        date: "2016 - 2020"
+        GPA: "8.42 out of 10"
+        content: |-
             - Won 2nd place All India in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
-            - Was the Elected Cultural Club Secretary from 2019-2021
-            - Won several Photography competitions during all 4 years.
+            - Executive Committee Head - Makers of India CBIT : Mentored 500+ students to build AI enabled  prototypes
+            - Secretary - Engineers Without Borders CBIT: Established E-learning facilities in 50+ government schools in India  for economically deprived students alongside EWB-INDIA
 
   #featuredLink:
   #enable: true
@@ -262,26 +263,26 @@ params:
       #- title: Smart India Hackathon 2020
        # content: Won 2nd place in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
         #url: "https://www.sih.gov.in"
-      - title: Creative Collision Challenge 2022
-        content: Won 1st Place at the University of Rochester AIN Entrepreneurship cell's yearly pitching competition.
-      - title: Women Entrepreneurship Week Candidate 2020
-        content: Was selected to meet a Senior Director from Jio Industries for a discussion about the Smart Yoga Instructor application AIC Incubation Center at IIIT Kottayam.
-      - title: Elected Cultural Secretary 2019 - 2021
-        content: Conducted 15+ events with a footprint of more than 300+ students and Managed a team of 25 students for fundraising and event organization # Conducted events virtually during COVID for effective engagement among new students.
-        url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
-      - title: Presented my paper at ACM/CSI/IEEE-CS Conference. 
-        content: Author of “IoT based Smart Medicine Reminder Kit” at ACM/CSI/IEEE-CS Research and Industry Symposium at IIIT Kottayam (My Bachelor's Honors Project)
+      - title: TalentSprint Women Engineer’s Program 2019
+        content: Top 125 nationwide in TalentSprint Women Engineer’s Program 2019  powered by Google.
+      - title: Sudhee 2018, Chaitanya Bharathi Institute of Technology
+        content: Secured consolation prize in Project Expo at Sudhee’18, National level Technical Symposium of CBIT for the project, “Automated Writing Machine”.
+      - title: Sampurna E-Vidya App
+        content: Presented on behalf of the club Engineers Without Borders, CBIT  and secured 3rd prize for “Sampurna E-Vidya App” at All India EWB Chapter’s Meet 2017 along with a seed amount of Rs.15000/-. # Conducted events virtually during COVID for effective engagement among new students.
+      - title: Mission R&D
+        content: 1 of 11 students who got selected for MRND (Mission R&D) from CBIT.
 
   # projects
   projects:
     enable: true
     items:
-      - title: Colorizer - Deep Learning
-        content: A Deep learning based application that converts a Black and White (Grayscale) Image/Video into a Colour video without human guidance.
-        image: /images/projects/Colorization3.png
+      - title: Image Captioning for Visually Impaired Individuals
+        content: |-
+          Image Captioning System to generate meaningful captions to aid visually impaired individuals.
+        image: /images/projects/image_captioning.jpeg
         featured:
           name: Click here to know more!
-          link: https://docs.google.com/presentation/d/193X-n0sXoFbMR9dD7rxJxwM8n_GpOwNQ/edit?usp=sharing&ouid=116008293600462184270&rtpof=true&sd=true
+          link: https://github.com/JahnaviRamagiri/image-caption-generator
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
@@ -290,49 +291,51 @@ params:
           #- icon: fa fa-envelope
           #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/Keerthi-Sreenivas/Deep-Learning/blob/main/Gray%20Scale%20Image%20Colorization%20using%20Auto%20Encoders%20(Fruits%20Data%20Set).ipynb
+            url: https://github.com/shubhjadhav/image-caption-generator
           # - icon: fab fa-twitter
           #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Elon Musk Dogecoin Tweet Analysis - NLP
-        content: Analyzed the sentiments around Elon's tweets about Dogecoin and impact of his tweets on the price of Doge coin.
-        image: /images/projects/doge4.jpeg
-        featured:
-          name: Click here to know more!
-          link: https://github.com/Keerthi-Sreenivas/Elon_Musk-Doge-Tweet_Analysis/blob/main/Facts_derived_from_the_study.pdf
+      - title: Walksafe - Pedestrian Safety for Washington DC
+        content: |-
+          Pedestrian Safety App with proximity Alert feature developed for Washington DC.
+        image: /images/projects/pedestrian_safety.png
+        # featured:
+        #   name: Click here to know more!
+        #   link: https://github.com/Keerthi-Sreenivas/Elon_Musk-Doge-Tweet_Analysis/blob/main/Facts_derived_from_the_study.pdf
         # badges:
         #   - "Django"
         #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Keerthi-Sreenivas/Elon_Musk-Doge-Tweet_Analysis
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/Keerthi-Sreenivas/Elon_Musk-Doge-Tweet_Analysis
 
-      - title: Marketing Insights - Statistics
-        content: Digging through data and finding significant insights to advertise better products to customers of different backgrounds.
-        image: /images/projects/advert1.jpeg
+      - title: Monocular Depth Estimation and Background/Foreground Extraction - Computer Vision
+        content: |-
+          Prediction of depth map and Mask for the given foreground object.
+        image: /images/projects/depth_estimation.jpeg
         featured:
           name: Click here to know more!
-          link: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+          link: https://github.com/JahnaviRamagiri/EVA-B2/tree/master/S15
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
         #   - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+            url: https://github.com/JahnaviRamagiri/EVA-B2/tree/master/S15
 
   #Contact
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: keerthikonjety9@gmail.com
+    email: jahnavi.ramagiri27@gmail.com
     btnName: Mail me
 
   footer:
     recentPosts: false
     socialNetworks:
-      github: https://github.com/Keerthi-Sreenivas
-      linkedin: https://www.linkedin.com/in/keerthi-sreenivas-90b78a185/
+      github: https://github.com/JahnaviRamagiri
+      linkedin: https://www.linkedin.com/in/jahnaviramagiri/
     # twitter: https://twitter.com
-      instagram: https://www.instagram.com/keerthi__sreenivas/
+      instagram: https://instagram.com/jahnaviramagiri?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr
     # facebook: https://facebook.com
